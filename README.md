@@ -42,10 +42,10 @@ Getting oldest employee from each department
 
 ## Question no 5
 ### Execution
-`$ python3 problem5.py`
+> `$ python3 problem5.py`
 
 ### Unit Test
-`$ python3 test_problem5.py`
+> `$ python3 test_problem5.py`
 
 ### Time complexity:  
 > Its a greedy algorithm.  
@@ -53,10 +53,10 @@ Getting oldest employee from each department
 
 ## Question no 6
 ### Execution
-`$ python3 problem6.py`
+> `$ python3 problem6.py`
 
 ### Unit Test
-`$ python3 test_problem6.py`
+> `$ python3 test_problem6.py`
 
 ### Time complexity:  
 > O(N) as we are traversing each cell just once and marking it with 3 as visited  

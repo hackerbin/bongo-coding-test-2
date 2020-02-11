@@ -34,7 +34,7 @@ class Maze(object):
 
     def find_path(self):
         self.traverse(self.start_x, self.start_y)
-        print('Visited paths are = {}', self.visited)
+        print('Visited paths are = {}'.format(self.visited))
         if self.found:
             print('Found at ({},{})'.format(self.visited[-1][0], self.visited[-1][1]))
         return {'found': self.found, 'destination': self.visited[-1] if self.found else None}
